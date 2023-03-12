@@ -8,6 +8,7 @@
 // Объявить тип переменной, объявить имя.
 
 int inputNumber = Convert.ToInt32(Console.ReadLine());
-int square = inputNumber * inputNumber;
+// int square = inputNumber * inputNumber;
+int square = Convert.ToInt32(Math.Pow(inputNumber, 2));
 
 System.Console.WriteLine(square);
