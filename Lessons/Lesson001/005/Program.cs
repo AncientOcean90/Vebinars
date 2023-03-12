@@ -5,3 +5,11 @@
 // умножиили на -1 (сдеалали отрицательным)
 // цикл до числа , которое ввели +1
 
+int N = Convert.ToInt32(System.Console.ReadLine());
+int Exit = -1 * N;
+
+while (Exit <= N)
+{
+    System.Console.WriteLine(Exit);
+    Exit += 1;
+}
