@@ -4,3 +4,13 @@
 // a = 9, b = -3 -> да 
 // a = -3 b = 9 -> нет
 
+int numberA = Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
+if (numberB * numberB == numberA)
+{
+    System.Console.WriteLine("Yes");
+}
+else 
+{
+    System.Console.WriteLine("No");
+}
