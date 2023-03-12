@@ -9,3 +9,17 @@
 // 3*8=24
 // 3*9=27
 // 3*10=30
+
+int a = 3;
+// int i = 1;
+
+for (int i = 1; i <= 10; i++)
+{
+    System.Console.WriteLine($"{a} * {i} = {a*i}");
+}
+
+// while (i <= 10)
+// {
+//    System.Console.WriteLine($"{a} * {i} = {a*i}");
+//    i++;
+// }
