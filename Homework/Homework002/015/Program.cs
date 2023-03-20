@@ -5,19 +5,50 @@
 // 7 -> да
 // 1 -> нет
 
-Console.WriteLine("Введите число: ");
 
-int DayOfWeek = Convert.ToInt32(Console.ReadLine());
 
-if (DayOfWeek > 7)
+
+// Console.WriteLine("Введите число: ");
+
+// int DayOfWeek = Convert.ToInt32(Console.ReadLine());
+
+// if (DayOfWeek > 7)
+// {
+//     System.Console.WriteLine("Такого дня недели не существует");
+// }
+//  else if (DayOfWeek >= 6)
+// {
+//     System.Console.WriteLine("Этот день выходной");
+// }
+// else 
+// {
+//     System.Console.WriteLine("Этот день рабочий");
+// }
+
+
+
+
+int inputNumberWithMessage(string message)
 {
-    System.Console.WriteLine("Такого дня недели не существует");
+    Console.WriteLine(message);
+    return Convert.ToInt32(Console.ReadLine()); 
 }
- else if (DayOfWeek >= 6)
+
+void PrintDayOfWeekByNumber(int dayOfWeek)
 {
-    System.Console.WriteLine("Этот день выходной");
+    if (dayOfWeek > 7)
+    {
+        System.Console.WriteLine("Такого дня недели не существует");
+    }
+        else if (dayOfWeek >= 6)
+    {
+        System.Console.WriteLine("Этот день выходной");
+    }
+        else 
+    {
+        System.Console.WriteLine("Этот день рабочий");
+    }
 }
-else 
-{
-    System.Console.WriteLine("Этот день рабочий");
-}
+
+int dayOfWeek = inputNumberWithMessage("Введите число");
+PrintDayOfWeekByNumber(dayOfWeek);
