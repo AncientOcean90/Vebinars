@@ -3,6 +3,7 @@
 
 double X = Convert.ToDouble (Console.ReadLine());
 double Y = Convert.ToDouble (Console.ReadLine());
+int part = 0;
 
 // if (X > 0 && Y > 0)
 // {
